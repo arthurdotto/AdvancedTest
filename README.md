@@ -13,6 +13,7 @@ e criar uma Base de Dados com o nome "Livros"
 Para criar a Base de Dados:
 
 create database Livros
+
 Go
 
 Caso seja necessário mudar algo na connectionString, ela se encontra no arquivo Web.config,
@@ -20,9 +21,11 @@ Caso seja necessário mudar algo na connectionString, ela se encontra no arquivo
 Após feito o cadastro, para verificar se o mesmo foi enviado para o Banco de Dados faça a seguinte consulta:
 
 Use Livros
+
 Go
 
 Select * from Livros
+
 Go
 
 Importante mencionar que mesmo depois de horas de pesquisa não foi possivel realizar a consulta (parte 2 do teste).
